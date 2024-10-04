@@ -26,5 +26,6 @@ public class Infoplayer : MonoBehaviour
     
     
     //TODO créer une méthode pour enlever de la vie
+    //TODO ++ mettre à jour l'interface !!
 
 }
