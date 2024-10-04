@@ -15,9 +15,7 @@ public class MissileMove : MonoBehaviour
     void Start()
     {
         player = GameObject.FindGameObjectWithTag("player");
-
         scoreDestruction = 10;
-
     }
 
     // Update is called once per frame
@@ -37,6 +35,9 @@ public class MissileMove : MonoBehaviour
             Destroy(this.gameObject);
             player.GetComponent<Infoplayer>().AddScore(scoreDestruction);
         }
+        //TODO compléter ici le code pour que un missile puisse détecter une collision avec le "player"
+        //TODO si détection détruire le missile
+        //TODO enlever de la vie au player en utilisant la méthode qui sera crée ds Infoplayer (script)
 
     }
 }

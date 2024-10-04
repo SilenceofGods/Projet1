@@ -5,10 +5,8 @@ using UnityEngine;
 public class Infoplayer : MonoBehaviour
 {
     public int score = 0;
-
-    [SerializeField]
-
-    private InterfaceController gui;
+    //TODO créer une variable de type int pour la vie
+    [SerializeField] private InterfaceController gui;
 
 
     void Start() {
@@ -25,5 +23,8 @@ public class Infoplayer : MonoBehaviour
         gui.UpdateScore(score);
        
     }
+    
+    
+    //TODO créer une méthode pour enlever de la vie
 
 }

@@ -12,7 +12,7 @@ TagManager:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - Ennemy
+  - 
   - Water
   - UI
   - MissileE
@@ -20,7 +20,7 @@ TagManager:
   - player
   - Wall
   - KillZone
-  - 
+  - Ennemy
   - 
   - 
   - 
