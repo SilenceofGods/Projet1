@@ -8,9 +8,12 @@ public class EnnemyMove : MonoBehaviour {
     Transform myTransform;
     
     void Start(){ 
-    
+     
       myTransform = GetComponent<Transform>();
       speed = Random.Range(speed -1f, speed + 1f);
+
+      
+
     }
 
     

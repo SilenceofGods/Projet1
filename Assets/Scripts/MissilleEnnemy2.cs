@@ -12,6 +12,8 @@ public class EnemyMissile : MonoBehaviour
         transform.Translate(speed * Time.deltaTime * Vector2.down);
         //Debug.Log("l'ennemy tire");
 
+        
+
       
     } 
 }

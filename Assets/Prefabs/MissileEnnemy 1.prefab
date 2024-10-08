@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 1519537061070666176}
   - component: {fileID: -8309608404757403587}
   - component: {fileID: -1962530611662029908}
+  - component: {fileID: 4026225474732236260}
   m_Layer: 6
   m_Name: MissileEnnemy 1
   m_TagString: Missile
@@ -94,7 +95,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7240530314582279644}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 938ce85eb50e88a4a8c4b14f78f1731d, type: 3}
   m_Name: 
@@ -172,3 +173,19 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.17, y: 0.21}
   m_EdgeRadius: 0
+--- !u!114 &4026225474732236260
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7240530314582279644}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65e5fcf4923106b429a948f83b94c790, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scoreDestruction: 0
+  player: {fileID: 0}
+  speed: 12
+  rb: {fileID: -8309608404757403587}

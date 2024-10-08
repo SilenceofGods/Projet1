@@ -135,6 +135,7 @@ MonoBehaviour:
   player: {fileID: 0}
   speed: 90
   rb: {fileID: 4015173614735477781}
+  isPlayerMissile: 1
 --- !u!61 &-5758948404305064723
 BoxCollider2D:
   m_ObjectHideFlags: 0

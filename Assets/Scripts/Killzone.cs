@@ -10,7 +10,7 @@ public class Killzone : MonoBehaviour
         if (collision.gameObject.CompareTag("Ennemy"))
         {
             Destroy(collision.gameObject);
-            Debug.Log("collision");
+            //Debug.Log("collision");
         }
     } 
 }
