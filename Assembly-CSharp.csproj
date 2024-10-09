@@ -48,8 +48,10 @@
     <Compile Include="Assets\Scripts\Killzone.cs" />
     <Compile Include="Assets\Scripts\Ennemy Spawner.cs" />
     <Compile Include="Assets\Scripts\EnnemyMove.cs" />
+    <Compile Include="Assets\#Teacher\Scope\Component1.cs" />
     <Compile Include="Assets\Scripts\PlayerController.cs" />
     <Compile Include="Assets\#Teacher\Pong\GameManager.cs" />
+    <Compile Include="Assets\#Teacher\Scope\Component2.cs" />
     <Compile Include="Assets\#Teacher\Pong\BallDeath.cs" />
     <Compile Include="Assets\#Teacher\Pong\PadMove.cs" />
     <Compile Include="Assets\#Teacher\Pong\BallMove.cs" />
